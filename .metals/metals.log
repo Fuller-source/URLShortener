@@ -5025,3 +5025,8 @@
 2025.09.13 17:04:07 WARN  no build target for: /Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/example/urlshortener/service/UrlService.java
 2025.09.13 17:04:07 INFO  no build target found for /Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/example/urlshortener/service/UrlService.java. Using fallback presentation compiler.
 2025.09.13 17:04:08 INFO  no build target found for /Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/example/urlshortener/service/UrlService.java. Using fallback presentation compiler.
+2025.09.13 17:04:39 INFO  no build target found for /Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/example/urlshortener/service/UrlService.java. Using fallback presentation compiler.
+2025.09.13 17:08:52 INFO  no build target found for /Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/example/urlshortener/service/UrlService.java. Using fallback presentation compiler.
+2025.09.13 17:28:41 INFO  Shutting down server
+2025.09.13 17:28:41 INFO  shutting down Metals
+2025.09.13 17:28:41 INFO  Exiting server

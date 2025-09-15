@@ -18,15 +18,16 @@ public class UrlService {
     private static final int KEY_LENGTH = 8;
 
     public String shortenUrl(String longUrl) {
+        int counter = 0;
         String shortKey;
         Optional<UrlMapping> existingMapping; // Represents a value that may or may not be present, to avoid NullPointerException errors.
 
         // DO WHILE LOOP. I HAD TO PAUSE :(
-        shortKey = hashUrl(longUrl);
-        existingMapping = urlRepository.findByShortKey(shortKey);
-        if (existingMapping.isPresent()){
-
-        } 
+        do{
+            shortKey = hashUrl(longUrl + counter);
+            existingMapping = urlRepository.findByShortKey(shortKey);
+            counter++;
+        } while (existingMapping.isPresent());
 
         UrlMapping urlMapping = new UrlMapping(longUrl, shortKey);
         urlRepository.save(urlMapping);
@@ -50,7 +51,7 @@ public class UrlService {
                 hexString.append(String.format("%02x", b));
             }
 
-            return hexString.substring(KEY_LENGTH).toString();
+            return hexString.substring(0, KEY_LENGTH).toString();
         }
         catch (NoSuchAlgorithmException e) {
             throw new RuntimeException("Algorithm not found ;_; : " + e.getMessage());
