@@ -16,7 +16,7 @@
     <name>fuller-url-shortener</name>
     <description>A URL shortener built with Spring Boot</description>
     <properties>
-        <java.version>21.0.7</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <!-- Spring Boot Starters -->
