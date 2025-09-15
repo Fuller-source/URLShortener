@@ -1,9 +1,11 @@
-package com.example.urlshortener.service;
+package com.fullersource.urlshortener.service;
 
-import com.example.urlshortener.model.UrlMapping;
-import com.example.urlshortener.repository.UrlRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.fullersource.urlshortener.model.UrlMapping;
+import com.fullersource.urlshortener.repository.UrlRepository;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
