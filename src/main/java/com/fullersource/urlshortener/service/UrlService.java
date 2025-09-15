@@ -24,7 +24,6 @@ public class UrlService {
         String shortKey;
         Optional<UrlMapping> existingMapping; // Represents a value that may or may not be present, to avoid NullPointerException errors.
 
-        // DO WHILE LOOP. I HAD TO PAUSE :(
         do{
             shortKey = hashUrl(longUrl + counter);
             existingMapping = urlRepository.findByShortKey(shortKey);
