@@ -1,5 +1,5 @@
-/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/fullersource/urlshortener/service/UrlService.java
-/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/fullersource/urlshortener/controller/UrlController.java
-/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/fullersource/urlshortener/UrlShortenerApplication.java
-/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/fullersource/urlshortener/repository/UrlRepository.java
-/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortener/src/main/java/com/fullersource/urlshortener/model/UrlMapping.java
+/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortenerBE/src/main/java/com/fullersource/urlshortener/UrlShortenerApplication.java
+/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortenerBE/src/main/java/com/fullersource/urlshortener/model/UrlMapping.java
+/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortenerBE/src/main/java/com/fullersource/urlshortener/repository/UrlRepository.java
+/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortenerBE/src/main/java/com/fullersource/urlshortener/controller/UrlController.java
+/Users/james/Library/CloudStorage/OneDrive-Personal/Desktop/URLShortenerBE/src/main/java/com/fullersource/urlshortener/service/UrlService.java

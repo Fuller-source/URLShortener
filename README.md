@@ -74,10 +74,11 @@ URL Shortener
         - Endpoint: POST /shorten
         - Request Body: The long URL as a plain string (e.g., https://www.example.com/very/long/url).
         - Response: A 200 OK status with the generated short key as a plain string.
+        - Hint: Make sure you are running these commands on a new terminal, while running the application.
 
         Example using curl:
 
-            curl -X POST -H "Content-Type: text/plain" -d "[https://www.google.com](https://www.google.com)" http://localhost:8080/shorten
+            curl -X POST -H "Content-Type: text/plain" -d "https://www.google.com" http://localhost:8080/shorten
 
     2. Redirect from a Short Key
 
