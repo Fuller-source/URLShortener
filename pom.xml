@@ -34,13 +34,15 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- H2 Database (in-memory) -->
+        <!-- H2 Database (in-memory) (Removed dependency) 
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+        -->
     </dependencies>
+
 
     <build>
         <plugins>
