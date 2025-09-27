@@ -17,7 +17,7 @@ RUN mvn clean install -DskipTests
 
 # --- Final Stage: Runtime ---
 # Use a smaller base image for the final runtime for security and size
-FROM openjdk:21-jre-slim
+FROM eclipse-temurin:21-jre-alpine
 
 # Copy the packaged JAR file from the build stage
 COPY --from=build /app/target/fuller-url-shortener-0.0.1-SNAPSHOT.jar /app.jar
