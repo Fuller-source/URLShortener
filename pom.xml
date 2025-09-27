@@ -33,7 +33,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
         <!-- H2 Database (in-memory) (Removed dependency) 
         <dependency>
             <groupId>com.h2database</groupId>
