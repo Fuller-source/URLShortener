@@ -8,8 +8,8 @@
       "mainClass": "com.fullersource.urlshortener.UrlShortenerApplication",
       "projectName": "fuller-url-shortener",
       "env": {
-        "DB_URL": "jdbc:postgresql://db.xpsbdbkxpeehopmzfwxe.supabase.co:5432/postgres?sslmode=require",
-        "DB_USERNAME": "postgres",
+        "DB_URL": "jdbc:postgresql://aws-1-us-east-1.pooler.supabase.com:5432/postgres?sslmode=require",
+        "DB_USERNAME": "postgres.xpsbdbkxpeehopmzfwxe",
         "DB_PASSWORD": "2125722084014"
       }
     }
