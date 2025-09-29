@@ -3,7 +3,7 @@ package com.fullersource.urlshortener;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication // Makes the application in my Canvas a runnable Spring Boot application
+@SpringBootApplication // Makes the application a runnable Spring Boot application
 public class UrlShortenerApplication {
     
     public static void main(String[] args) {
