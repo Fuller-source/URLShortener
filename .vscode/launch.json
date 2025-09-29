@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run with Supabase DB",
+      "request": "launch",
+      "mainClass": "com.fullersource.urlshortener.UrlShortenerApplication",
+      "projectName": "fuller-url-shortener",
+      "env": {
+        "DB_URL": "jdbc:postgresql://aws-1-us-east-1.pooler.supabase.com:5432/postgres?sslmode=require",
+        "DB_USERNAME": "postgres.xpsbdbkxpeehopmzfwxe",
+        "DB_PASSWORD": "2125722084014"
+      }
+    }
+  ]
+}
