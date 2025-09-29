@@ -26,7 +26,14 @@ public class UrlController {
     }
 
     @GetMapping("/{shortKey}")    // The braces tell spring that the URL is a variable
-    public String giveUrl(@PathVariable String shortKey){
-        return urlService.getLongUrl(shortKey);
+    public ResponseEntity<Void> redirectToLongUrl(@PathVariable String shortKey) throws URISyntaxException {
+        String longUrl = urlService.getLongUrl(shortKey);
+        if (longUrl != null) {
+            HttpHeaders headers = new HttpHeaders();
+            headers.setLocation(new URI(longUrl));
+            return new ResponseEntity<>(headers, HttpStatus.FOUND); // 302 redirect
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND); // 404 if not found
+        }
     }
 }
